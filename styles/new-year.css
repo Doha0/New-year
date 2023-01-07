@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Navbar-styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-primary {
+    color: #011640;
+}
+
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #005FAC;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+/* Banner-styles */
+.banner {
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 230px;
+    margin-bottom: 131px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-left: 845px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.banner-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 876px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.banner-btn {
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    width: 160px;
+    margin-bottom: 166px;
+    color: #005FAC;
+    background: #FFFFFF;
+}
+
+/* Main Styles */
+
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Failure Styles */
+.My-failures {
+    max-width: 1072px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+.text {
+    margin-top: 239px;
+    margin-left: 87px;
+}
+
+.text-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.text-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.fail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+/* My-Plans Styles */
+
+.my-plans {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.my-plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-img {
+    margin-bottom: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.skill-discription {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Mindset styles */
+.mindset {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 60px 617px 24px 64px;
+}
+
+.mindset-btn {
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    margin: 0 916px 60px 64px;
+}
+
+/* Footer Styles */
+.footer {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #151414;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 331px;
+    margin: 130px 230px;
+}
+
+.details {
+    color: #FFFFFF;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.future-discription {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.future-email {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.future-phone {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.fb,
+.twitter {
+    margin-right: 17px;
+}
+
+.subscribe-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+#email {
+    height: 64px;
+    width: 325px;
+    background: #151414;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-bottom: 16px;
+    border: 1px solid #FFFFFF;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+.subscribe-btn {
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+}
